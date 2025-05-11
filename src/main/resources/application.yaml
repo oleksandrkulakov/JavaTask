@@ -1,0 +1,2 @@
+scheduler.rate.ms=60000
+csv.file.path=schedule.csv
