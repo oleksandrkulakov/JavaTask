@@ -28,6 +28,7 @@ public class ScheduleService {
         entries.add(new ScheduleEntry(time, bitmask));
       }
     } catch (IOException e) {
+      System.out.println("Exception log");
     }
     return entries;
   }
